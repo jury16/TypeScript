@@ -1,4 +1,3 @@
-"use strict";
 var __extends = (this && this.__extends) || (function () {
     var extendStatics = function (d, b) {
         extendStatics = Object.setPrototypeOf ||
@@ -94,3 +93,4 @@ scale.add(banana);
 scale.add(tomato);
 console.log("Total weight: " + scale.getSumScale() + " kilos");
 console.log.apply(console, __spreadArray(['List of products: '], scale.getnameList(), false));
+//# sourceMappingURL=app.js.map
