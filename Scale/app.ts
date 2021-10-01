@@ -6,10 +6,10 @@ class Product{
         this.name = _name;
         this.weight =_weight;
     }
-    getName(){
+    getName():string{
         return this.name;
     }
-    getScale(){
+    getScale(): number{
         return this.weight;
     }
 }
