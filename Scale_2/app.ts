@@ -13,14 +13,14 @@ class Scale{
     }
     getnameList(): string[]{
         let productsNames: string[]= [];
-        this.products.forEach((item) => {
+        this.products.forEach((item: IScalable) => {
             productsNames.push(item.getName())
         });
         return productsNames;
     }
     getSumScale(): number{
         let sum: number = 0;
-        this.products.forEach((item) =>{
+        this.products.forEach((item: IScalable) =>{
             sum += item.getScale();
         })
         return sum;
